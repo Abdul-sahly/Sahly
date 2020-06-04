@@ -3,12 +3,21 @@
 	  <head>
 	    <meta charset="utf-8">
 	    <title> Abdulsama Sahly</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <style>
-	    body {
-	      color: #5F0C5B;
-	      text-align: center;
-	      padding: 5px;
-	    }
+	   Body {
+       	      text-align: center;
+              background-color:#E7DBCB;
+     }
+     @media (min-width: 500px) {
+       h1:: before {   content:"Welcome to Dr. Sahly Website!"; content: "!أهلا بكم في صفحة الدكتور عبد الصمد سهلي";
+           }
+     }
+     @media (max-width: 499px) {
+       h1::beofre {
+         content:"Welcome";content:"أهلا!"
+       }
+     }
 	    ul {
 	      color: #5F0C5B;
 	      list-style-position:inside;
@@ -16,30 +25,20 @@
 	      Padding: 10px;
 	      font-size: 25px
 	    }
-	    ul:hover {background-color: #CAE1DC;
-
-
+	    ul:hover {background-color:#DDCBB2;
 	    }
 	    table {
-
-
 	      list-style-position: inside;
 	      text-align: left;
-
-
 	    }
 	      td {border: 0px  black;
 	        }
 	input{ background-color: #DFCAE1
 	}
 	button{
-
-
 	  background-color: #CAE1DC
 	}
 	button:hover { background-color: orange;
-
-
 	}
 	.fa {
 	  padding: 5px;
@@ -48,52 +47,43 @@
 	  text-align: center;
 	  text-decoration: none;
 	}
-
-
 	.fa:hover {
 	  opacity: 0.5;
 	}
-
-
-
-
 	.fa-facebook {
 	  background: #3B5998;
 	  color: white;
 	}
-
-
 	.fa-twitter {
 	  background: #55ACEE;
 	  color: white;
 	}
-
-
-	h3:hover {background-color: #CAE1DC;
+	h3:hover {background-color: #DDCBB2;
 	}
-	h1:hover {background-color: #CAE1DC;
+	h1:hover {background-color: #DDCBB2;
 	}
+  @media print {
+    .screen-only {
+      display: none;
+    }
+  }
 	    </style>
-
-
 	  </head>
 	  <body>
-	    <div>
+	    <div Class="top">
 	      <h1>Welcome to Dr. Sahly Website!</h1>
 	      <h1>!أهلا بكم في صفحة الدكتور عبد الصمد سهلي</h1>
 	    </div>
-	<div>
+	<div Class="middle">
 	  <img src="C:\Users\Dell\Desktop\Programing\images\123.jpg" height="200" width="150">
 	</div>
 	<div>
 	  <ul>
-	    <a href="profil.html">Profile</a>
-	    <a href="profil.html">Research</a>
-	    <a href="profil.html">Lectures</a>
-	    <a href="profil.html">Projects</a>
+	    <a href="file:///C:/Users/Dell/sahly/profile.html">Profile</a>
+	    <a href="profile.html">Research</a>
+	    <a href="profile.html">Lectures</a>
+	    <a href="profile.html">Projects</a>
 	  </ul>
-	  </div>
-	  <div>
 	    <h3>Need consultation?</h3>
 	      <form>
 	        <input type="consultation" list="type of Service"placeholder="type of Service">
@@ -104,16 +94,14 @@
 	              <option value="Research and Statistic consultation">
 	                <option value="Other">
 	        </option>
-
-
 	        </datalist>
 	          <input type="text" placeholder="full name">
 	          <input type="text" placeholder="Email">
 	          <button>submit!</button>
 	        </form>
 	  </div>
-	<div>
-	      <table>
+	<div class="bottom">
+	      <table class="screen-only">
 	        <tr>
 	          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	          <td><a href="https://twitter.com/AbdulsamadSahly" class= "fa fa-twitter"></a></td>
