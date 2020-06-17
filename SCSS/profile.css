@@ -30,10 +30,25 @@ div {
   font-family: fantasy, Times, serif;
   color: black; }
 
+.border {
+  width: 200px;
+  height: 5px;
+  background: #34495e;
+  margin: 10px auto; }
+
 p {
   color: black;
   font-size: 17px;
-  font-family: cursive, Times, serif; }
+  font-family: "Pristina, sans-serif"; }
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  overflow: hidden; }
+
+.links li {
+  padding: 10px;
+  margin: 10px; }
 
 .tg {
   border: none;
@@ -67,15 +82,5 @@ p {
 @media print {
   .screen-only {
     display: none; } }
-.grid {
-  display: grid;
-  padding: 20px;
-  grid-column-gap: 20px;
-  grid-row-gap: 10px;
-  grid-template-columns: auto auto auto; }
-
-.grid-item {
-  font-size: 20px;
-  padding: 20px; }
 
 /*# sourceMappingURL=profile.css.map */
