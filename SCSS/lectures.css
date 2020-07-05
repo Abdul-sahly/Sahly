@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  width: auto;
+  background: RGBA(0, 0, 0, 0.7);
+  padding: 0;
+  margin: 0; }
+
+.logo {
+  color: #dcdde1;
+  font-size: 30px;
+  font-family: "Edwardian Script ITC", sans-serif; }
+
+.navbar-dark .nav-item {
+  color: white;
+  font-family: Times;
+  font-size: 15px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  padding-left: 20px; }
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #262626; }
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  background: #dcdde1;
+  color: #262626; }
+
+.col {
+  background: url(C:/Users/Dell/Sahly/scss/Images/3.png);
+  padding: 50px;
+  background-size: cover; }
+
+.video {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  top: 150px;
+  text-align: center; }
+
+@media (max-width: 1000px) {
+  body {
+    background: none; }
+
+  .navbar ul {
+    flex-direction: column;
+    text-align: center; } }
+
+/*# sourceMappingURL=lectures.css.map */

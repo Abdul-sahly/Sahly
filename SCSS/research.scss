@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  .navbar{ width: auto;
+  background: RGBA(0,0,0,0.70);
+  padding: 0;
+  margin: 0;
+
+}
+.logo{
+color: #dcdde1;
+  font-size: 30px;
+  font-family:"Edwardian Script ITC", sans-serif;
+
+}
+  .navbar-dark .nav-item{
+    color: white;
+    font-family: Times;
+    font-size: 15px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #262626;
+  }
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  background: #dcdde1;
+  color: #262626;
+}
+
+body{
+background-color: gray;
+  }
+.accordion{
+  position: relative;
+  padding: 0px 200px;
+  top: 100px;
+justify-content: center;}
+.overflow-visible {
+  white-space:inherit;
+}
+.btn{padding: 10px;
+background: RGBA(0,0,0,0.70);
+color: #fff;
+padding: 8px 40px;
+border-radius: 50px;
+cursor: pointer;
+transition: 0.5s;
+box-shadow: 0 0 10px 4px #34495e;
+}
+
+.ab{
+  text-align: center;
+
+}
+.card {
+  position: relative;
+  margin: 20px;
+}
+@media (max-width: 1000px){
+      .accordion{
+        position: relative;
+        top: 100px;
+        padding: 0px 0px;
+      justify-content: center;}
+        .navbar ul{
+           flex-direction: column;
+          text-align: center;
+      }
+      }
